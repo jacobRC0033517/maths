@@ -61,5 +61,19 @@ namespace maths
                 label1.Text = ("no numbers");
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double d = Convert.ToDouble(textBox2.Text + textBox3.Text);
+                double cubedroot = Math.Sqrt(d);
+                label2.Text = cubedroot.ToString();
+            }
+            catch
+            {
+                label2.Text = ("no numbers");
+            }
+        }
     }
 }
