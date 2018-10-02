@@ -46,5 +46,20 @@ namespace maths
         {
            
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double d = Convert.ToDouble(textBox1.Text);
+                double cubedroot = Math.Pow(d, 1.0 / 3.0);
+                label1.Text = cubedroot.ToString();
+
+            }
+            catch
+            {
+                label1.Text = ("no numbers");
+            }
+        }
     }
 }
