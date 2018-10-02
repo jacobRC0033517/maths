@@ -28,9 +28,16 @@ namespace maths
 
             richTextBox1.AppendText(i1 + "\n" + i2 + "\n" + i3 + "\n" + i4 + "\n" + i5 + "\n" + i6 + "\n");
             richTextBox1.AppendText(d1 + "\n" + d2 + "\n" + d3 + "\n");
+
+            richTextBox1.AppendText (Math.Pow (27, 0.333333333) + "\n");
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
